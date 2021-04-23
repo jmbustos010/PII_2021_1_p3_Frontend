@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.principales.frmDatos">
+  <grid id="27dc6" binding="jpaPrincipal" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="600" height="430"/>
+    </constraints>
+    <properties>
+      <background color="-16698813"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="82e34" binding="sclDatos">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16698813"/>
+          <foreground color="-486394"/>
+          <minimumSize width="600" height="430"/>
+          <preferredSize width="600" height="430"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="62e2f" class="javax.swing.JTable" binding="tblDatos">
+            <constraints/>
+            <properties>
+              <background color="-16698813"/>
+              <foreground color="-131080"/>
+              <gridColor color="-486394"/>
+              <selectionBackground color="-12025169"/>
+              <selectionForeground color="-2430484"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
